@@ -6,13 +6,16 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body onload="init();">
-    <canvas id="canvas" width="800" height="480">
+    <canvas id="canvas" width="1500" height="750" style="text-align: center; align-self: center;">
     </canvas>
-    <form>
-        <input type="button" value="Move up" onclick="moveUp()">
-        <input type="button" value="Move down" onclick="moveDown()">
-        <input type="button" value="Move left" onclick="moveLeft()">
-        <input type="button" value="Move right" onclick="moveRight()">
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; margin-right: 150px;">
+        "W" - MoveUp | 
+        "S" - MoveDown | 
+        "D" - MoveRight | 
+        "A" - MoveLeft
+    </div>
+    <form style="text-align: center; margin-right: 150px;">
+        <input type="button" value="Start" onclick="start()">
 	</form>
 </body>
 </html>
